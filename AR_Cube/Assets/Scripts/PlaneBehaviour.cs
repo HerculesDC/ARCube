@@ -8,14 +8,10 @@ public class PlaneBehaviour : MonoBehaviour
 {
     [SerializeField] private GameObject m_PedestalModel;
     [SerializeField] private GameObject m_DiamondModel;
-
+    
     //Rationale: other scripts will need to access it
     public GameObject Pedestal;
     public GameObject Diamond;
-    void Awake() {
-
-        
-    }
 
     // Start is called before the first frame update
     void Start()
